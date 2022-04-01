@@ -90,7 +90,6 @@ app.get('/login', isLoggedOut, (req, res) => {
 		title: "Login",
 		error: req.query.error
 	}
-
 	res.render('login', response);
 });
 
